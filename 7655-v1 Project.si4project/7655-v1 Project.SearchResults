@@ -1,0 +1,6 @@
+---- UART_TX_RX_POS Matches (5 in 2 files) ----
+driver_l1_cfg.h (project\turnkey_gpcv1248_cvr\inc) line 94 :        #define UART_TX_RX_POS			   UART1_TX_IOB7__RX_IOB6// UART1_TX_IOD9__RX_IOD8
+driver_l1_cfg.h (project\turnkey_gpcv1248_cvr\inc) line 97 :        #define UART_TX_RX_POS			   UART1_TX_IOC15__RX_IOC14//UART1_TX_IOB7__RX_IOB6 
+driver_l1_cfg.h (project\turnkey_gpcv1248_cvr\inc) line 100 : #define UART_TX_RX_POS              UART_TX_NONE__RX_NONE
+gpio_pad_init2 in drv_l1_gpio.c (driver_l1\common\src) : 	switch(UART_TX_RX_POS)
+gpio_drving_init in drv_l1_gpio.c (driver_l1\common\src) : 	switch(UART_TX_RX_POS)

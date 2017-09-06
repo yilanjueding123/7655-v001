@@ -1,0 +1,5 @@
+#if 0//GPDV_BOARD_VERSION != GPCV1237A_Aerial_Photo
+	nvmemory_init();
+	config_load_flag = ap_state_config_load();
+ap_state_resource_init();
+//这里会影响到加时间工具后软件是否正常跑
